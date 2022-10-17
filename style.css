@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  background: #F1C40F;
+}
+body main {
+  flex: 1 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #F75C03;
+}
+body main h2 {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+}
+body main h3 {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+body main p {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+body main ul {
+  position: relative;
+  top: 20px;
+  line-height: 50px;
+  font-weight: 500;
+}
+body main ul li {
+  list-style-type: none;
+  margin: 0 10px 10px 0;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  width: 200px;
+  color: rgb(0, 0, 0);
+  border-radius: 1000px;
+  transition: 0.2s ease;
+}
+body main ul li:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  background: #2274A5;
+}/*# sourceMappingURL=style.css.map */
