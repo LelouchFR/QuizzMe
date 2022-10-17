@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    $font: 'M PLUS Rounded 1c', sans-serif;
+    $button_green: rgb(20,169,117);
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: $font;
+
+    header {
+        display: flex;
+        justify-content: center;
+        background: #F1C40F;
+    }
+
+    main {
+        flex: 1 !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #F75C03;
+
+        h2 {
+            position: relative;
+            top: -20px;
+            left: 10px;
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            position: relative;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+        }
+
+        p {
+            position: relative;
+            width: 100%;
+            top: 0px;
+            left: 10px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            position: relative;
+            top: 20px;
+            line-height: 50px;
+            font-weight: 500;
+
+            li {
+                list-style-type: none;
+                margin: 0 10px 10px 0;
+                background: rgba(255, 255, 255, .4);
+                text-align: center;
+                width: 200px;
+                color: rgba(0, 0, 0, 1);
+                border-radius: 1000px;
+                transition: .2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background: rgba(255, 255, 255, .5);
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        background: #2274A5;
+    }
+}
