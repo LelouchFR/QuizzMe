@@ -1,9 +1,11 @@
 let score: number = 0;
 
+// Creating like an time.sleep in python
 const sleep = (millisecond: number) => {
 	return new Promise(resolve => setTimeout(resolve, millisecond));
 };
 
+// Set the first question
 window.onload = function() {
     let quizz = document.getElementById('Q');
     if (quizz !== null) {
@@ -21,6 +23,7 @@ window.onload = function() {
     }
 }
 
+// if false
 function False(id: string) {
     let Doc = document.getElementById(id);
     if (Doc !== null) {
@@ -28,6 +31,7 @@ function False(id: string) {
     }
 }
 
+// if false
 function True(id: string) {
     let Doc = document.getElementById(id);
     if (Doc !== null) {
@@ -142,7 +146,7 @@ class AnswerListener {
 
         let quizz = document.getElementById('Q'), WAI = document.getElementById("WAI");
         
-        // Put question + answers
+        // Put next questions + answers
         if (value === 2 && quizz !== null && WAI !== null) {
             i++;
             quizz.innerHTML = `<h2>Question 2</h2><p>Quelle etait mon premier language de programmation ?</p><ul><li onClick="AnswerListener.Questions('R1', 2)" id="R1">Python</li><li onClick="AnswerListener.Questions('R2', 2)" id="R2">Batch</li><li onClick="AnswerListener.Questions('R3', 2)" id="R3">Javascript</li><li onClick="AnswerListener.Questions('R4', 2)" id="R4">Ruby</li></ul>`;
