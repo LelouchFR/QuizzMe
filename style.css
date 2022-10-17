@@ -28,6 +28,7 @@ body main h2 {
   position: relative;
   top: -20px;
   left: 10px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }
@@ -45,6 +46,7 @@ body main p {
   top: 0px;
   left: 10px;
   font-weight: bold;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +61,9 @@ body main ul li {
   margin: 0 10px 10px 0;
   background: rgba(255, 255, 255, 0.4);
   text-align: center;
-  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
   color: rgb(0, 0, 0);
   border-radius: 1000px;
   transition: 0.2s ease;
