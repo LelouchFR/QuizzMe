@@ -50,6 +50,9 @@ body main p {
   margin: 0;
   padding: 0;
 }
+body main .answers {
+  position: relative;
+}
 body main ul {
   position: relative;
   top: 20px;
