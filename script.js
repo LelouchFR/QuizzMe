@@ -199,10 +199,10 @@ _a = AnswerListener, _AnswerListener_NewQuestion = function _AnswerListener_NewQ
     let quizz = document.getElementById('Q');
     if (quizz) {
         if (ResultScore <= 4)
-            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Tu me connais pas du tout</h3>`;
+            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Tu me connais pas du tout</h3><p class="answers">Question 1: Math, NSI, LLCE<br>Question 2: Batch<br>Question 3: Lycée Jean-Monnet<br>Question 4: Guy<br>Question 5: Fiat Panda<br>Question 6: 2 ans et 9 mois<br>Question 7: Hannovre<br>Question 8: ASES<br>Question 9: Perfectionniste<br>Question 10: Visual Studio Code</p>`;
         else if (ResultScore <= 9)
-            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Bien joué tu me connais presque parfaitement</h3>`;
+            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Bien joué tu me connais presque parfaitement</h3><p class="answers">Question 1: Math, NSI, LLCE<br>Question 2: Batch<br>Question 3: Lycée Jean-Monnet<br>Question 4: Guy<br>Question 5: Fiat Panda<br>Question 6: 2 ans et 9 mois<br>Question 7: Hannovre<br>Question 8: ASES<br>Question 9: Perfectionniste<br>Question 10: Visual Studio Code</p>`;
         else
-            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Incroyable! tu me connais aussi bien que moi je connais ma vie!</h3>`;
+            quizz.innerHTML = `<h3>Tu as eu ${ResultScore}/10<br>Incroyable! tu me connais aussi bien que moi je connais ma vie!</h3><p class="answers">Question 1: Math, NSI, LLCE<br>Question 2: Batch<br>Question 3: Lycée Jean-Monnet<br>Question 4: Guy<br>Question 5: Fiat Panda<br>Question 6: 2 ans et 9 mois<br>Question 7: Hannovre<br>Question 8: ASES<br>Question 9: Perfectionniste<br>Question 10: Visual Studio Code</p>`;
     }
 };
